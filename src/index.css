@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@layer base { 
+    body {
+        @apply font-[Poppins];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+#root {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#root {
+    background-image: linear-gradient(
+        to right,
+        #FAF7D9,
+        #FAF7D9
+    )!important;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-div {
+    background-image: linear-gradient(70deg, #C3D665 50%, #FAF7D9 0%);
+    font-weight: 600;   
+    min-height: 40px;
+    display: flex;
+    border-top-left-radius: 25px;  
+}
+
+.header-tab {
+    width: 50%;    
+    border-top-right-radius: 25px;
+}
+
+.header-title {
+    margin-left: 10px;
+}
+
+.header-x-button {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.header-x-button:hover {
+    background-color:#909e47;
+    border-radius: 50%;    
+}
+
+.navbar-buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.address-bar {
+    width: 69%;    
+    display: flex;
+    align-items: center;
+}
+
+.address-bar-input {
+    width: 95%;
+    border-radius: 25px;
+    background-color: #E0ED80;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bookmark-button {
+    position: absolute !important;
+    right: 20px;
+}
+
+.break-line {
+    border-top: 2px dashed black;
+    margin: 10px 20px;
+}
+
+.footer-social-bar {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin: 20px;
+}
