@@ -15,11 +15,12 @@ function App() {
     <div className="App centered">
       <Header />
       <Navigation />
-      <div className="main-content">
+      <div className="flex-between main-content">
         <Leftcontent />
         <Rightcontent />
       </div>
       <Footer />
+      
     </div>
   );
 }

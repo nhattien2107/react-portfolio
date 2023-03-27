@@ -1,8 +1,8 @@
 .App {  
-  min-width: 500px;
+  width: 600px;
   margin: auto;
-  background-color:#C3D665;
-  border-radius: 25px;
+  background-color: transparent;
+  border: 1px solid #1F4A75;
 }
 
 .centered {
@@ -13,8 +13,7 @@
   transform: translate(-50%, -50%);
 }
 
-.main-content {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 10px;
+.footer-text {
+  text-align: center;
+  font-weight: 10;
 }
