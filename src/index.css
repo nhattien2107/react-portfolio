@@ -43,21 +43,20 @@
         to right,
         var(--app-fifth-color),
         var(--app-fifth-color)
-    )!important;
+    );
     color: var(--text-white-color);
 }
 
 .App {  
     width: 600px;
+    min-height: 605px;
     margin: auto;
     background-image: linear-gradient(
             to top,
             var(--app-color),
             var(--app-second-color)
-        )!important; 
+        ); 
      border: 1px solid var(--app-second-color); 
-    /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;   */
 }
 
 .centered {
@@ -78,40 +77,50 @@
     align-items: center;
 }
 
-.header-div {      
-    background-image: linear-gradient(
-        to top,
-        hsl(184, 93%, 54%),
-        var(--app-second-color) 30%, 
-        var(--app-fourth-color) 0%
-    )!important; 
+.react-tabs__tab-list {
+    background-color: var(--app-fifth-color);
     font-weight: 600;   
-    min-height: 40px;
+    max-height: 40px;
     display: flex;   
-    /* border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
     padding-top: 5px;
+    padding-left: 5px;
+    margin: 0 auto;
+    border: none;
 }
 
-.header-tab {   
+.react-tabs__tab--selected {
     background-image: linear-gradient(
         to top,
         hsl(184, 93%, 54%),
-        var(--app-second-color)
-        
-    )!important; 
-    width: 30%;    
+        var(--app-second-color)     
+    ) !important; 
     border-top-right-radius: 12px; 
     border-top-left-radius: 12px;
-    color: var(--text-black-color);
+    color: var(--text-black-color);  
 }
 
+.react-tabs__tab {
+    background-color: var(--app-fifth-color);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: var(--text-black-color);
+    border: 1px solid var(--app-second-color) !important;   
+    padding: 5px !important;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.react-tabs__tab:focus { outline: none; }
+
 .header-title {
-    margin-left: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 14px;
 }
 
 .header-x-button {
-    margin-right: 10px;
     width: 25px;
     height: 25px;
     text-align: center;
@@ -131,13 +140,13 @@
 
 .header-close {
     background-color: var(--app-fifth-color);
-    width: 70%;    
-    border-bottom-left-radius: 12px; 
+    width: 100%;    
     border-top-right-radius: 20px; 
     display: flex;
     justify-content: flex-end;
     align-items: center;  
     color: var(--text-black-color);
+    border-bottom-left-radius: 12px; 
 }
 
 .square, .square-exit {
@@ -155,7 +164,6 @@
 
 .square-exit:hover {
     background-color:var(--red-color);
-    border-top-right-radius: 20px; 
 }
 
 .navbar-buttons {
@@ -182,7 +190,7 @@
 }
 
 .bookmark-button {
-    position: absolute !important;
+    position: absolute ;
     right: 30px;
     color: hsl(212, 100%, 50%);
 }
@@ -238,7 +246,6 @@ h1 {
 }
 
 .side-button {
-    /* background-color: var(--app-color); */
     background-image: linear-gradient(
             to top right,
             var(--app-color),
@@ -275,4 +282,8 @@ h1 {
 h2 {
     font-size: 20px;
     font-weight: 600;
+}
+
+.main-content {
+    min-height: 433px;
 }
