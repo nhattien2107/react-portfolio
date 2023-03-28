@@ -6,10 +6,18 @@ function Footer() {
     <div className="footer-div">
       <h3 className='break-line'> </h3>
       <div className='footer-social-bar'>
-      <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-      <FontAwesomeIcon icon="fa-brands fa-instagram" />
-      <FontAwesomeIcon icon="fa-brands fa-youtube" />
-      <FontAwesomeIcon icon="fa-solid fa-envelope" />
+        <a href="https://www.fb.com/ChaeNoran">
+          <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+        </a> 
+        <a href="https://www.instagram.com/maybe.nt_/">
+          <FontAwesomeIcon icon="fa-brands fa-instagram" />
+        </a>
+        <a href="https://www.youtube.com/@ChaeNoran">
+          <FontAwesomeIcon icon="fa-brands fa-youtube" />
+        </a>
+        <a href="https://www.youtube.com/@ChaeNoran">
+          <FontAwesomeIcon icon="fa-solid fa-envelope" />
+        </a>
       </div>
     </div> 
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import gif from '../assets/IMG_9041.jpg';
+import gif from '../assets/IMG_8866.png';
 function LeftContent() {
   return (
     <div className='left-content-div'>
@@ -27,7 +27,7 @@ function LeftContent() {
       </div>
       <div className='image-div'>
         <img src={gif} alt="gif"/>
-        <i>Your lips look lonely. Can mine keep them company?</i>
+        <i>Full-time coder, part-time player game O. UID : 268405</i>
       </div>
     </div> 
   )

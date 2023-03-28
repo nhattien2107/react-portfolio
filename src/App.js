@@ -1,4 +1,3 @@
-import './App.css';
 import Header from "./components/header";
 import Navigation from "./components/navigation";
 import Leftcontent from "./components/left-content";
