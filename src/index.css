@@ -287,3 +287,28 @@ h2 {
 .main-content {
     min-height: 433px;
 }
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 600px) {
+    .App {
+        width: 100%;
+    }
+
+    .bookmark-button {       
+        right: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 400px) {
+    .bookmark-button {       
+        right: 20px;
+    }   
+}
+
+@media screen and (min-width: 500px) {
+    .bookmark-button {       
+        right: 30px;
+    }   
+}
